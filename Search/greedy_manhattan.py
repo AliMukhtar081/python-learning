@@ -51,8 +51,6 @@ def greedy_first_search(initial_state, goal_state):
             if successor_state not in explored:
                 heapq.heappush(frontier, (manhattan_distance(successor_state), successor_state))
     return None
-
-
 initial_state = (1, 2, 3, 4, 5, 6, -1, 7, 8)
 goal_state = (1, 2, 3,-1, 4, 5, 6, 7, 8)
 solution = greedy_first_search(initial_state,goal_state)
