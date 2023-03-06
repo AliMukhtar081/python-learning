@@ -49,7 +49,7 @@ def greedy_first_search(initial_state,goalstate):
     return None
 
 
-# Example usage:
+
 initial_state = (1, 2, 3, 4, 5, 6, 0, 7, 8)
 goalstate=(1, 2, 3, 4,0, 5, 6, 7, 8,)
 solution = greedy_first_search(initial_state,goalstate)
